@@ -27,6 +27,6 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "spanify": "^1.1.0"
+    "spanify": "^1.1.1"
   }
 }

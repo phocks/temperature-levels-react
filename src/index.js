@@ -1,7 +1,7 @@
 const React = require('react');
 const { render } = require('react-dom');
 
-const PROJECT_NAME = 'temperature-levels-react';
+const PROJECT_NAME = 'temperature-levels';
 const root = document.querySelector(`[data-${PROJECT_NAME}-root]`);
 
 function init() {
