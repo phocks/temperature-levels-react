@@ -4,6 +4,8 @@ const worm = require("./worm.svg");
 const spanify = require("spanify");
 
 const Age = require("./Age");
+const InlineText = require("./InlineText");
+const Portal = require("./Portal");
 
 // const Temperature = require("./Temperature");
 // Time = require("./Time"),
@@ -101,7 +103,13 @@ class App extends React.Component {
   render() {
     return (
       <section>
-        <Age birthYear={this.state.birthYear} onAgeChange={this.handleAgeChange} />
+        <Age
+          birthYear={this.state.birthYear}
+          onAgeChange={this.handleAgeChange}
+        />
+        <Portal>
+          <div>Some text</div>
+        </Portal>
         {/* <Portal into=".year">
           <InlineText text={state.birthYear} />
         </Portal>
