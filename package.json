@@ -27,6 +27,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-portal": "^4.1.1",
     "spanify": "^1.1.1"
   }
 }
