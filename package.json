@@ -18,10 +18,10 @@
     }
   },
   "devDependencies": {
-    "@abcnews/aunty": "^7.6.0",
+    "@abcnews/aunty": "^10.8.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "jest": "^21.2.1",
+    "jest": "^25.0.0",
     "react-test-renderer": "^16.2.0"
   },
   "dependencies": {
